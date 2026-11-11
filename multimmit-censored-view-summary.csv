@@ -1,0 +1,9 @@
+testbed,censor_count,extension_bound,victim_p50_ms,victim_p99_ms,other_p50_ms,other_p99_ms,victim_blocks,victim_first_finalised_by_extension_share
+global,1,8,461,617,362,527,215,48%
+global,1,0,561,744,382,659,260,
+global,9,8,557,746,382,594,2105,82%
+global,9,0,1452,2429,380,604,2120,
+north_america,1,8,65,146,62,134,225,48%
+north_america,1,0,92,148,61,132,305,
+north_america,9,8,64,179,60,148,2135,59%
+north_america,9,0,218,389,58,150,2160,

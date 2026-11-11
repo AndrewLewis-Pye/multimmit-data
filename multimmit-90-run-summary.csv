@@ -1,0 +1,91 @@
+testbed,mode,condition,achieved_tps,placement_p25_ms,placement_p50_ms,placement_p75_ms,placement_p99_ms,delivery_p50_ms,receipt_p50_ms
+global,base,"Healthy, 50k",50133,340,393,443,546,418,
+global,base,"Healthy, 100k",100053,324,383,437,548,403,
+global,base,"Healthy, 250k",250027,315,372,429,543,394,
+global,base,"Healthy, 500k",499840,331,389,450,624,432,
+global,base,"Healthy, 1M",999893,348,411,477,693,484,
+global,base,"One crash, 50k",49967,344,398,450,556,421,
+global,base,"One crash, 100k",99934,325,385,435,551,404,
+global,base,"One crash, 250k",250044,321,376,435,553,402,
+global,base,"One crash, 500k",500087,337,396,459,624,443,
+global,base,"One crash, 1M",999966,359,426,494,715,494,
+global,base,"Nine crashes, 50k",50031,432,540,680,1119,581,
+global,base,"Nine crashes, 100k",99887,425,532,692,1132,580,
+global,base,"Nine crashes, 250k",249980,434,552,723,1335,608,
+global,base,"Nine crashes, 500k",499959,482,617,791,1371,695,
+global,base,"Nine crashes, 1M",1000094,562,719,916,1934,817,
+global,base,"0.1% loss, 50k",50133,338,383,438,544,412,
+global,base,"0.1% loss, 100k",100053,322,381,432,554,406,
+global,base,"0.1% loss, 250k",250027,317,373,431,556,402,
+global,base,"0.1% loss, 500k",499840,338,398,462,641,464,
+global,base,"0.1% loss, 1M",1000107,356,424,494,740,531,
+global,base,"1 censor, e = 8, 500k",499840,330,387,447,592,424,
+global,base,"1 censor, e = 0, 500k",499840,335,394,456,646,451,
+global,base,"9 censors, e = 8, 500k",499840,331,389,451,629,430,
+global,base,"9 censors, e = 0, 500k",499840,334,392,455,1375,443,
+global,payments,"Healthy, 50k",50133,501,563,653,828,566,267
+global,payments,"Healthy, 100k",100053,505,596,672,776,613,241
+global,payments,"Healthy, 250k",250027,513,583,654,846,601,227
+global,payments,"Healthy, 500k",499840,530,603,677,895,643,236
+global,payments,"Healthy, 1M",999893,572,658,749,1074,736,245
+global,payments,"One crash, 50k",49967,512,581,658,832,590,268
+global,payments,"One crash, 100k",99934,521,618,677,848,630,245
+global,payments,"One crash, 250k",250044,528,600,669,857,619,230
+global,payments,"One crash, 500k",500087,541,615,688,897,654,238
+global,payments,"One crash, 1M",999966,588,676,769,1102,763,257
+global,payments,"Nine crashes, 50k",50031,667,765,911,1411,809,334
+global,payments,"Nine crashes, 100k",99887,675,791,942,1405,832,319
+global,payments,"Nine crashes, 250k",249980,673,787,939,1435,839,320
+global,payments,"Nine crashes, 500k",499959,730,862,1023,1537,938,422
+global,payments,"Nine crashes, 1M",999919,794,938,1107,1603,1022,471
+global,payments,"0.1% loss, 50k",50133,503,565,653,829,573,273
+global,payments,"0.1% loss, 100k",100053,506,592,672,780,618,245
+global,payments,"0.1% loss, 250k",250027,516,587,654,856,617,227
+global,payments,"0.1% loss, 500k",499840,529,603,677,907,671,235
+global,payments,"0.1% loss, 1M",999893,550,627,705,958,784,238
+global,"base, sync on","Healthy, 500k",499840,339,397,458,608,440,
+north_america,base,"Healthy, 50k",50133,50,55,60,76,58,
+north_america,base,"Healthy, 100k",100053,50,54,60,76,58,
+north_america,base,"Healthy, 250k",250027,53,61,65,82,63,
+north_america,base,"Healthy, 500k",499840,52,60,71,154,66,
+north_america,base,"Healthy, 1M",999893,64,76,85,198,87,
+north_america,base,"One crash, 50k",49967,50,55,60,94,58,
+north_america,base,"One crash, 100k",99934,50,54,60,89,58,
+north_america,base,"One crash, 250k",250044,51,60,65,94,63,
+north_america,base,"One crash, 500k",500087,52,60,73,134,65,
+north_america,base,"One crash, 1M",999966,64,76,86,208,86,
+north_america,base,"Nine crashes, 50k",50031,46,57,145,229,66,
+north_america,base,"Nine crashes, 100k",99887,46,58,81,244,62,
+north_america,base,"Nine crashes, 250k",249980,59,85,162,535,114,
+north_america,base,"Nine crashes, 500k",499959,94,180,361,1847,224,
+north_america,base,"Nine crashes, 1M",999919,144,242,395,1250,292,
+north_america,base,"0.1% loss, 50k",50133,50,55,60,77,57,
+north_america,base,"0.1% loss, 100k",100053,50,55,60,75,58,
+north_america,base,"0.1% loss, 250k",250027,52,60,65,115,64,
+north_america,base,"0.1% loss, 500k",499840,53,61,73,151,67,
+north_america,base,"0.1% loss, 1M",1000107,65,77,87,224,91,
+north_america,base,"1 censor, e = 8, 500k",499840,52,60,72,129,66,
+north_america,base,"1 censor, e = 0, 500k",499840,52,58,75,131,64,
+north_america,base,"9 censors, e = 8, 500k",499840,52,60,72,140,66,
+north_america,base,"9 censors, e = 0, 500k",499840,52,59,76,222,65,
+north_america,payments,"Healthy, 50k",50133,84,87,91,102,89,38
+north_america,payments,"Healthy, 100k",100053,85,88,90,99,89,37
+north_america,payments,"Healthy, 250k",250027,83,90,95,127,91,40
+north_america,payments,"Healthy, 500k",500053,81,94,99,159,96,39
+north_america,payments,"Healthy, 1M",999893,127,142,158,240,157,41
+north_america,payments,"One crash, 50k",49967,83,88,92,122,89,38
+north_america,payments,"One crash, 100k",99934,84,89,92,122,90,38
+north_america,payments,"One crash, 250k",250044,83,89,95,130,91,41
+north_america,payments,"One crash, 500k",500087,82,94,105,162,96,39
+north_america,payments,"One crash, 1M",999966,125,143,155,241,154,41
+north_america,payments,"Nine crashes, 50k",50031,81,98,204,333,148,38
+north_america,payments,"Nine crashes, 100k",99887,79,89,160,279,93,38
+north_america,payments,"Nine crashes, 250k",249980,90,118,197,431,142,43
+north_america,payments,"Nine crashes, 500k",499959,128,184,275,981,224,53
+north_america,payments,"Nine crashes, 1M",999919,176,262,359,824,308,112
+north_america,payments,"0.1% loss, 50k",50133,83,87,91,108,88,37
+north_america,payments,"0.1% loss, 100k",100053,85,89,91,104,90,38
+north_america,payments,"0.1% loss, 250k",250027,83,89,95,141,92,40
+north_america,payments,"0.1% loss, 500k",499840,81,94,100,183,97,39
+north_america,payments,"0.1% loss, 1M",999893,128,145,158,274,160,41
+north_america,"base, sync on","Healthy, 500k",499840,60,68,79,142,79,
